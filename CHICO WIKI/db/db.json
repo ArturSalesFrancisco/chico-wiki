@@ -1,0 +1,274 @@
+{
+  "secoes": [
+    {
+      "id": "1",
+      "nome_secao": "Conheça o protagonista",
+      "imagem": "../img/chicobanner.jpg",
+      "link": "../personagens/detalhespersonagem.html?id=1"
+    },
+    {
+      "id": "2",
+      "nome_secao": "Capítulos",
+      "imagem": "../img/capitulos.jpg",
+      "link": "../capitulos/capitulos.html"
+    },
+    {
+      "id": "3",
+      "nome_secao": "Personagens",
+      "imagem": "../img/personagens.jpg",
+      "link": "../personagens/personagens.html"
+    },
+    {
+      "id": "4",
+      "nome_secao": "Locais",
+      "imagem": "../img/locais.jpg",
+      "link": ""
+    },
+    {
+      "id": "5",
+      "nome_secao": "Organizações",
+      "imagem": "../img/organizacoes.jpg",
+      "link": ""
+    },
+    {
+      "id": "6",
+      "nome_secao": "Espécies",
+      "imagem": "../img/especies.jpg",
+      "link": ""
+    }
+  ],
+  "capitulos": [
+    {
+      "id": "1",
+      "capitulo": "Capítulo 1",
+      "titulo": "Despedida do império da floresta",
+      "imagem": "",
+      "descricao": "Chico se arrasta pelo império da floresta, machucado e sozinho. *Recordação de momentos de infância a qual chico brincava sozinho na praia refletindo que deve ser forte para conseguir proteger seu próprio reino.* Partindo ao momento atual, Chico escuta na TV do Recanto a campanha de Dô no atual torneio de tênis. e decide que chegou finalmente a hora de seguir seu sonho de rodar o mundo e conhecer suas maravilhas, assim como seus pais. Chico então desce até a fonte da floresta onde encontra muitas crianças que querem conversar com o imperador da floresta, Chico. Meg então intervêm e diz que Chico não pode ir embora. Depois de uma conversa com Meg, Chico caminha  até a orla da praia na qual seu Vô trabalhava numa nova invenção. Chico diz que pretende viajar pelo mundo, começando pelo torneio de tênis. Vô então entrega a Chico uma caixa herdada pela família Pintail, que se molda magicamente na forma de m pincel. Vô faz o pedido a Chico de entregar um pacote especial para um soldado do governo no Distrito Arado. Vô avisa Chico sobre incidências de ataques em alguns distritos de Pintail. Chico parte na sua jornada.",
+      "envolvidos": [
+        "Chico",
+        " Meg",
+        " Vô"
+      ],
+      "local": "Pintail"
+    },
+    {
+      "id": "2",
+      "capitulo": "Capítulo 2",
+      "titulo": "Train center de Pintail",
+      "imagem": "",
+      "descricao": "Chico começa sua jornada pegando uma carona com Harold, um fazendeiro, ate o train center de Pintail. A jornada de Chico começa viajando ate o Distrito da Baleia para participar do Concurso anual de caça aos insetos dos escoteiros. Esse concurso possui como premio uma carta de viagem. A carta de viagem é como um passaporte e existem apenas duas maneiras de se adquirir: A primeira delas é pagando valores altíssimos ao império vigente. A segunda é participando de eventos organizados por grandes grupos, como os escoteiros. No caminho ate o Distrito da Baleia Chico conhece Estrela, uma das maiores jovens mentes de Pintail, que também vai participar do Concurso de caça. Enquanto isso, Rubriko e seus lacaios preparam um plano para interceptar CLINT durante o exame, visto que esse garoto tem atrapalhado todos os planos de dominação de Rubriko.",
+      "envolvidos": [
+        "Chico",
+        " Harold",
+        " Estrela",
+        " Rubriko",
+        " Clint"
+      ],
+      "local": "Pintail"
+    },
+    {
+      "id": "3",
+      "capitulo": "Capítulo 3",
+      "titulo": "Caça aos insetos",
+      "imagem": "",
+      "descricao": "Chegando no distrito da baleia, Chico e Estrela se dirigem ao Domo da floresta, local onde o exame acontecera. Olhando para os participantes do evento, veem varias pessoas bem caricatas. Quando o evento começa, tudo parece normal. Chico e Estrela seguem juntos buscando concluir o desafio e adquirir suas cartas de viagem. Porém, Rubriko, um soldado cubo maluco, tinha outros planos. Um exército de sombras começa a aparecer por todo o domo da floresta e atacar todos os participantes. Os escoteiros começam a se esconder para se proteger dos ataques enquanto Chico e Estrela acabam se separando. Clint, filho de um dos maiores heróis de Supernova, salva Estrela usando seus poderes de trovão. Chico acaba sozinho e emboscado, sem saber o que fazer, quando então anotações em seu caderno de desenho começam a reluzir e espantam as sombras mais próximas.",
+      "envolvidos": [
+        "Chico",
+        " Estrela",
+        " Rubriko",
+        " Clint"
+      ],
+      "local": "Pintail"
+    },
+    {
+      "id": "4",
+      "capitulo": "Capítulo 4",
+      "titulo": "Legado da família Pintail",
+      "imagem": "img/card-chico1.jpg",
+      "descricao": "As sombras voltam a se aproximar de Chico que, amedrontado, arremessa tudo que está mais próximo para tentar impedi-las. Nesse momento, um esboço de besouro sai caminhando de dentro de uma das páginas de desenho de Chico e começa a subir pelo braço do garoto. Chico ouve vozes vindas do besouro que conta sobre o legado mágico da família Pintail. Descobre-se assim que forças maiores tentam contra a estabilidade do mundo que conhecemos. A voz explica também sobre a existência de entidades poderosas que mantinham a paz no planeta terra e que o poder de uma delas está agora nas mãos de Chico. Cabe então a ele usar esse poder para despertar a respectiva entidade e combater as forças demoníacas que vem causando mal por todo o mundo. Após essa conversa, Chico se encontra com uma vestimenta diferente. Uma armadura super revestida, em formato de besouro e ouve a voz dizer uma última coisa antes de sumir: “Toda a vida no planeta corre perigo, e toda ela está disposta a te ajudar na sua missão!”. Chico Besouro enfrenta as sombras e sai daquela situação assustadora.",
+      "envolvidos": [
+        "Chico",
+        " besouro"
+      ],
+      "local": "Pintail"
+    }
+  ],
+  "personagens": [
+    {
+      "id": "1",
+      "nome": "CHICO",
+      "pseudonimo": "O prodígio da nova era",
+      "idade": 16,
+      "estado": "vivo",
+      "imagem": "../img/chico.jpg",
+      "descricao": "Chico, conhecido como o prodígio da nova era, é o descendente mais novo da família Pintail, família fundadora do maior reino conhecido pela humanidade. Diferente dos nobres de sua família, que vivem no alto palanque de Pintail, isolada do restante da população, Chico vive nas praias cristalinas do Distrito Fundador com seu Vô, num laboratório de tecnologia de ponta onde seu vô trabalha. Chico é também o herdeiro do poder carregado pelos Pintail, proveniente de uma das 3 entidades que mantém a harmonia do planeta. Em Chico, esse poder é canalizado em seus materiais de desenho, esses que o garoto carrega por toda parte.",
+      "ocupacao": [
+        "Imperador do Reino da Floresta"
+      ],
+      "local_origem": [
+        "Pintail"
+      ],
+      "raca": "humano",
+      "genero": "masculino"
+    },
+    {
+      "id": "2",
+      "nome": "MEG",
+      "pseudonimo": "Escrivã amaldiçoada",
+      "idade": 16,
+      "estado": "vivo",
+      "imagem": "../img/meg.jpg",
+      "descricao": "Meg foi a primeira criança a se juntar ao império da floresta de Chico, ajudando a fundar as principais atrações que lá existem atualmente. Com o passar do tempo, a relação de confiança entre Chico e Meg foi crescendo cada vez mais, o que a tornou a grande Imperatiz da floresta, tomando conta de todas as crianças menores na ausência de Chico. Viajando com o protagonista em uma de suas expedições, Meg adquiriu uma maldição que a acompanha desde então, permitindo-a usar de seu caderno habilidades mágicas extraordinárias. A partir desse momento, Meg passa a treinar suas habilidades com Cavit e Sui em Curseland.",
+      "ocupacao": [
+        "Coletora de recursos do império",
+        " Impertriz da floresta"
+      ],
+      "local_origem": [
+        "Pintail"
+      ],
+      "raca": "humano",
+      "genero": "feminino"
+    },
+    {
+      "id": "3",
+      "nome": "VÔ",
+      "pseudonimo": "A ovelha negra da família Pintail",
+      "idade": 74,
+      "estado": "vivo",
+      "imagem": "../img/vo.jpg",
+      "descricao": "Alex, o vô de Chico, chamado por todo o reino de ovelha negra da família Pintail desde que quebrou o legado de nobreza, abandonando o reino nobre para viver na baixa Pintail. Desde pequeno, Alex se destacou por sua genialidade e criatividade, produzindo invenções continuamente por diversão. Em sua juventude, Alex, defendia os direitos humanos como parte de um grupo revolucionário (no qual ele atuava como ciêntista chefe) que destronou um líder tirano que comandava o trânsito inter-reinos. Com o passar dos anos, a mente de Alex começou a gerar interesse em diversas organizações ao redor de todo o mundo e acabou se juntando as forças do Rei Demônio, da qual abandonou 2 anos depois.",
+      "ocupacao": [
+        "Aposentado"
+      ],
+      "local_origem": [
+        "Pintail"
+      ],
+      "raca": "humano",
+      "genero": "masculino"
+    },
+    {
+      "id": "4",
+      "nome": "RONALD PINTAIL",
+      "pseudonimo": "O homem mais forte da terra",
+      "idade": 89,
+      "estado": "morto",
+      "imagem": "../img/ronaldpintail.jpg",
+      "descricao": "Ronald Mac. Pintail foi o fundador de Pintail, o maior e mais influênte reino da atualidade. Ronald trabalhava como maquinista, 4 gerações antes do tempo em que se passa a história original, até que um acidente muda o rumo de sua vida. Durante um turno de trabalho, seu trem acaba desencarrilhando logo a frente de um pequeno vilarejo. O choque do trem com as casas destruiria completamente aquele local. Frente a isso, Ronald decide parar o trem desgovernado de maõs nuas, salvando o vilarejo. Os moradores, então, acolhem Ronald como o herói da vila, da qual futuramente se tornaria o grande reino de Pintail, erguido pelo próprio Pintail com a ajuda dos moradores locais.",
+      "ocupacao": [
+        "Maquinista"
+      ],
+      "local_origem": [
+        "Pintail"
+      ],
+      "raca": "humano",
+      "genero": "masculino"
+    },
+    {
+      "id": "5",
+      "nome": "CLINT",
+      "pseudonimo": "Trovão de supernova",
+      "idade": 17,
+      "estado": "vivo",
+      "imagem": "../img/clint.jpg",
+      "descricao": "Clint é o único filho do maior herói de Supernova, Seto. Apesar de não herdar a velocidade de movimento de seu pai, suas habilidades exclusivas o levaram a descobrir e participar das tropas revolucionárias do subsolo de Pintail, no qual atua na missão anti-sombras por todo o reino. Clint luta para impedir a dominação da família bizarra sobre os distritos de Pintail e geralmente se encontra um passo a frente dos planos do gênio exilado Rubriko, líder da família bizarra. Clint passa a acompanhar Chico em algumas de suas expedições desde que o conheceu no concurso de caça aos insertos, no Distrito da Baleia.",
+      "ocupacao": [
+        "Herói"
+      ],
+      "local_origem": [
+        "Supernova"
+      ],
+      "raca": "superhumano",
+      "genero": "masculino"
+    },
+    {
+      "id": "6",
+      "nome": "MILLIO",
+      "pseudonimo": [
+        "O Exilado de Pintail",
+        "O empilhador"
+      ],
+      "idade": 41,
+      "estado": "vivo",
+      "imagem": "../img/millio.jpg",
+      "descricao": "Millio, o exilado de Pintail, é o braço direito do Rei Demônio e comanda aqueles que a sociedade não acolheu. Seus poderem provém da entidade mágica que representa a terra e as montanhas. Essa habilidade, apesar de violenta e devastadora, trouxe a Millio uma doença sem cura, que consome seu corpo aos poucos. Millio, sem se deixar abalar, usou dessa condição para maximizar seus golpes, se tornando praticamente invencível, lutando quase de igual pra igual com o Rei Demônio. Em sua infância, essa condição fez com que a sociedade o tratasse como inferior e o desprezasse, o que motivou Millio a criar, atualmente, a família bizarra.",
+      "ocupacao": [
+        "Comandante da família bizarra",
+        " Servo do Rei Demônio"
+      ],
+      "local_origem": [
+        "Pintail",
+        " Green Piece"
+      ],
+      "raca": "humano",
+      "genero": "masculino"
+    },
+    {
+      "id": "7",
+      "nome": "ESTRELA",
+      "pseudonimo": "A mente mais brilhante da atualidade",
+      "idade": 15,
+      "estado": "vivo",
+      "imagem": "../img/estrela.jpg",
+      "descricao": "Estrela é uma jovem mente brilhante que tomina inteligência artificial e tecnologia de alto nível. Sua I.A. integrada ao sistema de proteção do império da floresta é capaz de proteger as crianças dos ataques de qualquer inimigo. Estrela conheceu Chico no train center de Pintail, onde viajava para o concurso de caça aos insetos no Distrito da Baleia, e se aventurou com o protagonista até a destruição do império da floresta pela família bizarra. Desde então, Estrela é a responsável pela proteção remota de todo o império.",
+      "ocupacao": [
+        "Segurança do império da floresta"
+      ],
+      "local_origem": [
+        "Pintail"
+      ],
+      "raca": "humano",
+      "genero": "feminino"
+    },
+    {
+      "id": "8",
+      "nome": "MORGAN",
+      "pseudonimo": "Olhos do alto mar",
+      "idade": 28,
+      "estado": "vivo",
+      "imagem": "../img/morgan.jpg",
+      "descricao": "Morgan é um anihumano do tipo gaivota, nativo de FancyZoo. Desde pequeno, sonha em mostrar pro mundo que todas as espécies são capazes de tudo que a terra tem a oferecer. Como ferramenta para realizar tal desejo, Morgan decide então, se tornar um capitão pirata, formando o bando pirata dos Bandidos da Praia, que recebeu esse nome devido a fama das gaivotas de roubar comida de pescadores desatentos. Morgan vaga pelo mar libertando todos aqueles que possuem amarras que os impedem de seguir seus sonhos, não importa o que tenha que fazer pra isso.",
+      "ocupacao": [
+        "Capitão do bando dos Bandidos da praia"
+      ],
+      "local_origem": [
+        "FancyZoo"
+      ],
+      "raca": "anihumano",
+      "genero": "masculino"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Administrador",
+      "login": "adm",
+      "senha": "123",
+      "adm": true,
+      "favoritos": []
+    },
+    {
+      "nome": "Artur",
+      "login": "CHICO",
+      "senha": "31073120",
+      "adm": false,
+      "id": "e-1F3OA73V0",
+      "favoritos": [
+        "1"
+      ]
+    },
+    {
+      "nome": "Pablo",
+      "login": "pablo123",
+      "senha": "1234",
+      "adm": false,
+      "favoritos": [
+        "1",
+        "7",
+        "4",
+        "6"
+      ],
+      "id": "JRkGKLzRZFQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

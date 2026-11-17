@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/*HEADER*/
+.faixa-topo{
+    background-image: url(../img/chicobanner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.faixa-topo h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.faixa-verde {
+    background-color: rgb(0, 255, 123);
+    padding: 5px;
+    width: 100%;
+}
+
+/*NAVBAR*/
+.menu-cabecalho {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding: 10px;
+  margin: 0;
+}
+.menu-cabecalho li {
+  margin: 0 15px;
+}
+.menu-cabecalho a {
+  text-decoration: none;
+  color: white;
+}
+.menu-cabecalho a:hover {
+  color: rgb(0, 255, 123);
+}
+
+.pesquisa{
+    width: 85%;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.input-botao{
+    display: flex;
+}
+
+#btn-usuario{
+    background-color: rgb(0, 255, 123);
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+/*FOOTER*/
+.faixa-rodape{
+    margin-top: 2%;
+    background-color: #000000;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.faixa-rodape a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: auto ;
+}
+
+/*SEÇÕES*/
+.componente-card-secao{
+    background-image: url(../img/chicobanner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.introducao{
+    background-color: rgb(26, 26, 26);
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+    padding: 10px;
+    color: #000000;
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.introducao p{
+    font-weight: bolder;
+}
+
+.carousel{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.carousel-item img{
+    height: 300px;
+    object-fit: cover;
+}
+
+/*CAPÍTULOS*/
+.componente-card-capitulo{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.componente-card-capitulo h2{
+    text-decoration: underline;
+}
+
+/*PERSONAGENS*/
+.componente-card-personagem{
+    background-color: rgb(0, 255, 123);
+    border: 2px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.faixa-nome{
+    background-color: rgb(0, 255, 123);
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.titulo-estatisticas{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+button{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.detalhes-extra{
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.detalhes-extra p{
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn-favorito{
+    background: none;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+}
+
+#filtro-favoritos{
+    background-color: rgb(0, 255, 123);
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+/*DETALHES PERSONAGEM*/
+
+.info-lateral{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.dados{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.descricao{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.icone-personagem{
+    height: 288px;
+    border-radius: 5px;
+}
+
+.nome-personagem{
+    background-color: rgb(0, 255, 123);
+    padding: 5px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.pseudonimo-personagem{
+    background-color: rgb(17, 17, 17);
+    padding: 5px;
+    margin-top: 5px;
+    color: whitesmoke;
+}
+
+.faixa-arquivo{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 30%;
+    border-top-right-radius: 10px;
+}
+
+.faixa-arquivo-2{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 10%;
+    border-top-right-radius: 10px;
+}
+
+/*LOGIN*/
+
+.tela-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel-login{
+    width: 90%;
+    background-color: #000000;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow:0 0 20px rgb(0, 0, 0);
+}
+
+.painel-login p{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.painel-login h1{
+    color: rgb(0, 255, 123); 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form-login{
+    display: flex;
+    flex-direction: column
+}
+
+#form-login input{
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#form-login button{
+    background-color: rgb(0, 255, 123);
+    border: 2px solid black;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#abrir-cadastro{
+    width: 100%;
+    background: transparent;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+
+}
+
+#form-cadastro{
+    display: none;
+    flex-direction: column;
+}
+
+#form-cadastro input{
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#form-cadastro button{
+    background-color: rgb(0, 255, 123);
+    border: 2px solid black;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#voltar-login{
+    display: none;
+    width: 100%;
+    background: transparent;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+/*CADASTRO - PAINEL DE ADM*/
+.tela-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#tipo-cadastro{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+#area-formulario{
+    width: 90%;
+    background-color: #cccccc;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 2px;
+    box-shadow:0 0 20px rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+}
+
+.form-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#area-formulario h2{
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    border: 3px solid black;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+#area-formulario input{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#area-formulario textarea{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-cadastrar-adm{
+    width: 86%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 123);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.mensagem-seletor{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#lista-itens{
+    width: 90%;
+    background-color: #cccccc;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 2px;
+    box-shadow:0 0 20px rgb(0, 0, 0);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+}
+
+#lista-itens h2{
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    border: 3px solid black;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    color: white;
+}
+
+#lista-itens .div-crud{
+    width: 95%;
+    background-color: #959595;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-radius: 3px;
+}
+
+.btn-editar{
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 6px;
+    background-color: rgb(255, 200, 0);
+    border: 2px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.btn-excluir{
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 6px;
+    background-color: rgb(182, 5, 5);
+    border: 2px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.lista-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

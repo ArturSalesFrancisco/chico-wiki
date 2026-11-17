@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Administrador</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+    <header>
+        <div class="faixa-topo">
+            <h1>PAINEL ADMINISTRATIVO</h1>
+        </div>
+        <nav>
+            <ul class="menu-cabecalho">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../capitulos/capitulos.html">Capítulos</a></li>
+                <li><a href=>Locais</a></li>
+                <li><a href="../personagens/personagens.html">Personagens</a></li>
+                <li><a href="cadastros.html" id="btn-admin">Painel de ADM</a></li>
+            </ul>
+            <div class="faixa-verde"></div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <main class="tela-cadastro">
+        <select id="tipo-cadastro">
+            <option value="selecione" disabled selected>Selecione uma opção</option>
+            <option value="personagens">Personagens</option>
+            <option value="capitulos">Capitulos</option>
+        </select>
+
+        <div id="area-formulario"></div>
+        <div id="lista-itens"></div>
+    </main>
+    <script src="cadastros.js"></script>
+</body>
+</html>

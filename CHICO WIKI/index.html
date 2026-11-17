@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="faixa-topo">
+            <h1>CHICO WIKI</h1>
+        </div>
+        <nav>
+            <ul class="menu-cabecalho">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="capitulos/capitulos.html">Capítulos</a></li>
+                <li><a href=>Locais</a></li>
+                <li><a href="personagens/personagens.html">Personagens</a></li>
+                <li><a href="admin/cadastros.html" id="btn-admin">Painel de ADM</a></li>
+            </ul>
+            <div class="faixa-verde"></div>
+            <div class="input-botao">
+                <input class="pesquisa" id="search" placeholder="Buscar...">
+                <div class="area-usuario">
+                    <button id="btn-usuario">Login</button>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <main>
+
+        <div  id="sinopse" class="introducao">
+            <h2>SOBRE O QUADRINHO DO CHICO:</h2>
+            <p>
+            "Chico: Adeus recanto!" é um projeto de quadrinho autoral que teve início em 2022 e segue em produção até hoje! Venha acompanhar um pouco do meu projeto!
+            </p>
+            <p>
+            As crianças não tem noção de como o mundo funciona, não de verdade. Forças maiores sempre vão tentar contra a paz e a segurança das pessoas. O papel herdado por mim é proteger essas pessoas e me tornar forte pra defender meu próprio reino! Mas não podemos deixar de viver as maravilhas que o mundo nos proporciona a cada dia, não é? Lápis e papel sempre me levaram para mundos inimagináveis, mas chegou a hora de conhecer para o mundo real! Não posso imaginar o que há por vir!
+            </p>
+        </div>
+    
+        <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="personagens/detalhespersonagem.html?id=1">
+                <img src="img/bannerprotagonista.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>CHICO</h4>
+                    <p>PÁGINAS EM DESTAQUE</p>
+                </div>
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="capitulos/capitulos.html">
+                <img src="img/capitulos.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>CAPÍTULOS</h4>
+                    <p>PÁGINAS EM DESTAQUE</p>
+                </div>
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="personagens/personagens.html">
+                <img src="img/personagens.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>PERSONAGENS</h4>
+                    <p>PÁGINAS EM DESTAQUE</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>  
+
+        <div id="cards-secoes" class="row g-3"></div>
+
+    </main>
+
+    <footer>
+        <div class="faixa-rodape">
+            <a href="https://www.instagram.com/narradordochico/" class="button">Conheça o Instagram do Chico!</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
